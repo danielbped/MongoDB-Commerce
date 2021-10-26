@@ -1,0 +1,26 @@
+# Projeto [MongoDB Commerce](https://github.com/tryber/sd-012-mongodb-commerce/pull/96)
+  - Módulo 3: Desenvolvimento Back-end
+  - Bloco 23: MongoDB: Updates Simples e Complexos
+### Requisitos
+- [x] Inclua o campo `criadoPor` em todos os documentos, colocando `"Ronald McDonald"` no valor desse campo.
+- [x] Inclua o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor `"0.00"`, com o tipo `NumberDecimal`.
+- [x] Adicione o campo `avaliacao` em todos os documentos da coleção e efetue alterações nesse campo.
+- [x] Atribua a data corrente ao campo `ultimaModificacao` no sanduíche `Big Mac`.
+- [x] Adicione `ketchup` aos `ingredientes` para todos os sanduíches menos o `McChicken`, garantindo que não haja duplicidade nos `ingredientes`.
+- [x] Inclua `bacon` no final da lista de `ingredientes` dos sanduíches `Big Mac` e `Quarteirão com Queijo`.
+- [x] Remova o item `cebola` de todos os sanduíches.
+- [x] Remova o **primeiro** `ingrediente` do sanduíche `Quarteirão com Queijo`.
+- [x] Remova o **último** `ingrediente` do sanduíche `Cheddar McMelt`.
+- [x] Adicione a quantidade de vendas dos sanduíches por dia da semana.
+- [x] Insira os elementos `combo` e `tasty` no _array_ `tags` de todos os sanduíches e aproveite para deixar os elementos em ordem alfabética ascendente.
+- [x] Ordene em todos os documentos os elementos do _array_ `valoresNutricionais` pelo campo `percentual` de forma descendente.
+- [x] Adicione o elemento `muito sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior ou igual a `40`.
+- [x] Adicione o elemento `contém sódio` ao final do _array_ `tags` nos produtos em que o `percentual` de `sódio` seja maior do que `20` e menor do que `40`.
+- [x] Conte quantos produtos contêm `Mc` no nome, sem considerar letras maiúsculas ou minúsculas.
+- [x] Conte quantos produtos têm `4` ingredientes.
+- [x] Conte quantos documentos contêm as palavras `frango` ou `hamburguer` utilizando o operador `$text`.
+- [x] Conte quantos documentos contêm a **expressão** `feito com` utilizando o operador `$text`.
+- [x] Renomeie o campo `descricao` para `descricaoSite` em todos os documentos.
+- [x] Remova o campo `curtidas` do item `Big Mac`.
+- [x] Retorne o `nome` dos sanduíches em que o número de `curtidas` é maior que o número de sanduíches `vendidos`.
+- [x] Retorne o `nome` e a quantidade de vendas (`vendidos`) dos sanduíches em que o número de vendas é múltiplo de `5`.
