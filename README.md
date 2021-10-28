@@ -1,6 +1,6 @@
 # Projeto [MongoDB Commerce](https://github.com/tryber/sd-012-mongodb-commerce/pull/96)
   - Módulo 3: Desenvolvimento Back-end
-  - Bloco 23: MongoDB: Updates Simples e Complexos
+  - Bloco 24: MongoDB: Updates Simples e Complexos
 ### Requisitos
 - [x] Inclua o campo `criadoPor` em todos os documentos, colocando `"Ronald McDonald"` no valor desse campo.
 - [x] Inclua o campo `valorUnitario` em todos os documentos em que esse campo não existe e atribua a ele o valor `"0.00"`, com o tipo `NumberDecimal`.
